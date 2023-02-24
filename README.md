@@ -1,6 +1,10 @@
 # Old Chrome
 This is an attempt to recreate the old chrome theme. [This](https://github.com/pratyushtewari/firefox-like-chrome) repository was used as a basis.
 
+## Suggestions
+- Set `browser.theme.dark-private-windows` to `false` in `about:config` tab (without this, the theme currently does not correctly display private mode)
+- Set `browser.uidensity` to `1` (or any other value that suits you) `about:config` tab.
+
 ## Installation
 - Go to `about:config` in a new tab and turn on the `toolkit.legacyUserProfileCustomizations.stylesheets` setting
 - Type `about:profiles` in your address bar.
